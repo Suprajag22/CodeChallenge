@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="Testcase 1: ColumnHeaders" >
+    <classes>
+       <class name="herokuapp.ColumnHeaders" /> 
+    </classes>
+  </test>
+  
+    <test name="Testcase 2: ValidateFooterLink" >
+    <classes>
+       <class name="herokuapp.ValidateFooterLink" />
+    </classes>
+  </test>
+  
+    <test name="Testcase 3: VerifyAnswerCode" >
+    <classes>
+       <class name="herokuapp.VerifyAnswerCode" />   
+    </classes>
+  </test>
+  
+  <test name="Testcase 4: VerifyButtons" >
+    <classes>
+       <class name="herokuapp.VerifyButtons" />   
+    </classes>
+  </test>
+  
+    <test name="Testcase 5: VerifyDeleteFunctionality" >
+    <classes>
+       <class name="herokuapp.VerifyDeleteFunctionality" />   
+    </classes>
+  </test>
+  
+    <test name="Testcase 6: VerifyEditFunctionality" >
+    <classes>
+       <class name="herokuapp.VerifyEditFunctionality" />   
+    </classes>
+  </test>
+  
+  <test name="Testcase 7: VerifyFooterTxt" >
+    <classes>
+       <class name="herokuapp.VerifyFooterTxt" />   
+    </classes>
+  </test>
+  
+  <test name="Testcase 8: VerifyHeader" >
+    <classes>
+       <class name="herokuapp.VerifyHeader" />   
+    </classes>
+  </test>
+  
+    <test name="Testcase 9: VerifyTableData" >
+    <classes>
+       <class name="herokuapp.VerifyTableData" />   
+    </classes>
+  </test>
+  
+  <test name="Testcase 10: VerifyTitle" >
+    <classes>
+       <class name="herokuapp.VerifyTitle" />   
+    </classes>
+  </test>
+  
+</suite> <!-- Suite -->

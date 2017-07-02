@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Supraja\workspace\ChallengingDOM\src\herokuapp\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">10 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods,   40 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.ColumnHeaders" hash-for-method="closeBrowser">closeBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.ValidateFooterLink" hash-for-method="closeBrowser">closeBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyAnswerCode" hash-for-method="closeBrowser">closeBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyButtons" hash-for-method="closeBrowser">closeBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyDeleteFunctionality" hash-for-method="closeBrowser">closeBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyEditFunctionality" hash-for-method="closeBrowser">closeBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyFooterTxt" hash-for-method="closeBrowser">closeBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyTableData" hash-for-method="closeBrowser">closeBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyTitle" hash-for-method="closeBrowser">closeBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.ColumnHeaders" hash-for-method="launchApp">launchApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.ValidateFooterLink" hash-for-method="launchApp">launchApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyAnswerCode" hash-for-method="launchApp">launchApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyButtons" hash-for-method="launchApp">launchApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyDeleteFunctionality" hash-for-method="launchApp">launchApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyEditFunctionality" hash-for-method="launchApp">launchApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyFooterTxt" hash-for-method="launchApp">launchApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyHeader" hash-for-method="launchApp">launchApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyTableData" hash-for-method="launchApp">launchApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyTitle" hash-for-method="launchApp">launchApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.ColumnHeaders" hash-for-method="maximizeApp">maximizeApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.ValidateFooterLink" hash-for-method="maximizeApp">maximizeApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyAnswerCode" hash-for-method="maximizeApp">maximizeApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyButtons" hash-for-method="maximizeApp">maximizeApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyDeleteFunctionality" hash-for-method="maximizeApp">maximizeApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyEditFunctionality" hash-for-method="maximizeApp">maximizeApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyFooterTxt" hash-for-method="maximizeApp">maximizeApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyHeader" hash-for-method="maximizeApp">maximizeApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyTableData" hash-for-method="maximizeApp">maximizeApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyTitle" hash-for-method="maximizeApp">maximizeApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyButtons" hash-for-method="validateButtons">validateButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyAnswerCode" hash-for-method="verifyCode">verifyCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.ColumnHeaders" hash-for-method="verifyColumnHeader">verifyColumnHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyFooterTxt" hash-for-method="verifyColumnHeader">verifyColumnHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.ValidateFooterLink" hash-for-method="verifyFooterLnk">verifyFooterLnk</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyHeader" hash-for-method="verifyHeaderParagraph">verifyHeaderParagraph</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyHeader" hash-for-method="verifyHeaderTxt">verifyHeaderTxt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyDeleteFunctionality" hash-for-method="verifyTableData">verifyTableData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyEditFunctionality" hash-for-method="verifyTableData">verifyTableData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyTableData" hash-for-method="verifyTableData">verifyTableData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="herokuapp.VerifyTitle" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">herokuapp.VerifyTableData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeBrowser">
+                  </a> <!-- closeBrowser -->
+                  <span class="method-name">closeBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp">
+                  </a> <!-- launchApp -->
+                  <span class="method-name">launchApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maximizeApp">
+                  </a> <!-- maximizeApp -->
+                  <span class="method-name">maximizeApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTableData">
+                  </a> <!-- verifyTableData -->
+                  <span class="method-name">verifyTableData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">herokuapp.VerifyEditFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeBrowser">
+                  </a> <!-- closeBrowser -->
+                  <span class="method-name">closeBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp">
+                  </a> <!-- launchApp -->
+                  <span class="method-name">launchApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maximizeApp">
+                  </a> <!-- maximizeApp -->
+                  <span class="method-name">maximizeApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTableData">
+                  </a> <!-- verifyTableData -->
+                  <span class="method-name">verifyTableData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">herokuapp.VerifyFooterTxt</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeBrowser">
+                  </a> <!-- closeBrowser -->
+                  <span class="method-name">closeBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp">
+                  </a> <!-- launchApp -->
+                  <span class="method-name">launchApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maximizeApp">
+                  </a> <!-- maximizeApp -->
+                  <span class="method-name">maximizeApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyColumnHeader">
+                  </a> <!-- verifyColumnHeader -->
+                  <span class="method-name">verifyColumnHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">herokuapp.ColumnHeaders</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeBrowser">
+                  </a> <!-- closeBrowser -->
+                  <span class="method-name">closeBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp">
+                  </a> <!-- launchApp -->
+                  <span class="method-name">launchApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maximizeApp">
+                  </a> <!-- maximizeApp -->
+                  <span class="method-name">maximizeApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyColumnHeader">
+                  </a> <!-- verifyColumnHeader -->
+                  <span class="method-name">verifyColumnHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">herokuapp.ValidateFooterLink</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeBrowser">
+                  </a> <!-- closeBrowser -->
+                  <span class="method-name">closeBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp">
+                  </a> <!-- launchApp -->
+                  <span class="method-name">launchApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maximizeApp">
+                  </a> <!-- maximizeApp -->
+                  <span class="method-name">maximizeApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFooterLnk">
+                  </a> <!-- verifyFooterLnk -->
+                  <span class="method-name">verifyFooterLnk</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">herokuapp.VerifyAnswerCode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeBrowser">
+                  </a> <!-- closeBrowser -->
+                  <span class="method-name">closeBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp">
+                  </a> <!-- launchApp -->
+                  <span class="method-name">launchApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maximizeApp">
+                  </a> <!-- maximizeApp -->
+                  <span class="method-name">maximizeApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCode">
+                  </a> <!-- verifyCode -->
+                  <span class="method-name">verifyCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">herokuapp.VerifyTitle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeBrowser">
+                  </a> <!-- closeBrowser -->
+                  <span class="method-name">closeBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp">
+                  </a> <!-- launchApp -->
+                  <span class="method-name">launchApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maximizeApp">
+                  </a> <!-- maximizeApp -->
+                  <span class="method-name">maximizeApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">herokuapp.VerifyDeleteFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeBrowser">
+                  </a> <!-- closeBrowser -->
+                  <span class="method-name">closeBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp">
+                  </a> <!-- launchApp -->
+                  <span class="method-name">launchApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maximizeApp">
+                  </a> <!-- maximizeApp -->
+                  <span class="method-name">maximizeApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTableData">
+                  </a> <!-- verifyTableData -->
+                  <span class="method-name">verifyTableData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">herokuapp.VerifyHeader</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp">
+                  </a> <!-- launchApp -->
+                  <span class="method-name">launchApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maximizeApp">
+                  </a> <!-- maximizeApp -->
+                  <span class="method-name">maximizeApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHeaderParagraph">
+                  </a> <!-- verifyHeaderParagraph -->
+                  <span class="method-name">verifyHeaderParagraph</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHeaderTxt">
+                  </a> <!-- verifyHeaderTxt -->
+                  <span class="method-name">verifyHeaderTxt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">herokuapp.VerifyButtons</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeBrowser">
+                  </a> <!-- closeBrowser -->
+                  <span class="method-name">closeBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp">
+                  </a> <!-- launchApp -->
+                  <span class="method-name">launchApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maximizeApp">
+                  </a> <!-- maximizeApp -->
+                  <span class="method-name">maximizeApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateButtons">
+                  </a> <!-- validateButtons -->
+                  <span class="method-name">validateButtons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Supraja\workspace\ChallengingDOM\src\herokuapp\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Testcase 1: ColumnHeaders&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;herokuapp.ColumnHeaders&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testcase 1: ColumnHeaders --&gt;
+  &lt;test name=&quot;Testcase 2: ValidateFooterLink&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;herokuapp.ValidateFooterLink&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testcase 2: ValidateFooterLink --&gt;
+  &lt;test name=&quot;Testcase 3: VerifyAnswerCode&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;herokuapp.VerifyAnswerCode&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testcase 3: VerifyAnswerCode --&gt;
+  &lt;test name=&quot;Testcase 4: VerifyButtons&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;herokuapp.VerifyButtons&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testcase 4: VerifyButtons --&gt;
+  &lt;test name=&quot;Testcase 5: VerifyDeleteFunctionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;herokuapp.VerifyDeleteFunctionality&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testcase 5: VerifyDeleteFunctionality --&gt;
+  &lt;test name=&quot;Testcase 6: VerifyEditFunctionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;herokuapp.VerifyEditFunctionality&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testcase 6: VerifyEditFunctionality --&gt;
+  &lt;test name=&quot;Testcase 7: VerifyFooterTxt&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;herokuapp.VerifyFooterTxt&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testcase 7: VerifyFooterTxt --&gt;
+  &lt;test name=&quot;Testcase 8: VerifyHeader&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;herokuapp.VerifyHeader&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testcase 8: VerifyHeader --&gt;
+  &lt;test name=&quot;Testcase 9: VerifyTableData&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;herokuapp.VerifyTableData&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testcase 9: VerifyTableData --&gt;
+  &lt;test name=&quot;Testcase 10: VerifyTitle&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;herokuapp.VerifyTitle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testcase 10: VerifyTitle --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Testcase 1: ColumnHeaders (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Testcase 2: ValidateFooterLink (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Testcase 3: VerifyAnswerCode (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Testcase 4: VerifyButtons (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Testcase 5: VerifyDeleteFunctionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Testcase 6: VerifyEditFunctionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Testcase 7: VerifyFooterTxt (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Testcase 8: VerifyHeader (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Testcase 9: VerifyTableData (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Testcase 10: VerifyTitle (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'closeBrowser')
+data.setCell(0, 2, 'herokuapp.ValidateFooterLink')
+data.setCell(0, 3, 23514);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'launchApp')
+data.setCell(1, 2, 'herokuapp.ValidateFooterLink')
+data.setCell(1, 3, 23433);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'launchApp')
+data.setCell(2, 2, 'herokuapp.ColumnHeaders')
+data.setCell(2, 3, 18169);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'launchApp')
+data.setCell(3, 2, 'herokuapp.VerifyButtons')
+data.setCell(3, 3, 15857);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'launchApp')
+data.setCell(4, 2, 'herokuapp.VerifyEditFunctionality')
+data.setCell(4, 3, 15183);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'launchApp')
+data.setCell(5, 2, 'herokuapp.VerifyAnswerCode')
+data.setCell(5, 3, 14241);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'launchApp')
+data.setCell(6, 2, 'herokuapp.VerifyDeleteFunctionality')
+data.setCell(6, 3, 13893);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'launchApp')
+data.setCell(7, 2, 'herokuapp.VerifyFooterTxt')
+data.setCell(7, 3, 13736);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'launchApp')
+data.setCell(8, 2, 'herokuapp.VerifyHeader')
+data.setCell(8, 3, 12514);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'launchApp')
+data.setCell(9, 2, 'herokuapp.VerifyTableData')
+data.setCell(9, 3, 12403);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'launchApp')
+data.setCell(10, 2, 'herokuapp.VerifyTitle')
+data.setCell(10, 3, 11929);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyFooterLnk')
+data.setCell(11, 2, 'herokuapp.ValidateFooterLink')
+data.setCell(11, 3, 6020);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyTableData')
+data.setCell(12, 2, 'herokuapp.VerifyTableData')
+data.setCell(12, 3, 4596);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyTableData')
+data.setCell(13, 2, 'herokuapp.VerifyEditFunctionality')
+data.setCell(13, 3, 4159);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyTableData')
+data.setCell(14, 2, 'herokuapp.VerifyDeleteFunctionality')
+data.setCell(14, 3, 3988);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyCode')
+data.setCell(15, 2, 'herokuapp.VerifyAnswerCode')
+data.setCell(15, 3, 3266);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'maximizeApp')
+data.setCell(16, 2, 'herokuapp.VerifyButtons')
+data.setCell(16, 3, 2021);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validateButtons')
+data.setCell(17, 2, 'herokuapp.VerifyButtons')
+data.setCell(17, 3, 718);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyColumnHeader')
+data.setCell(18, 2, 'herokuapp.ColumnHeaders')
+data.setCell(18, 3, 436);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'closeBrowser')
+data.setCell(19, 2, 'herokuapp.VerifyAnswerCode')
+data.setCell(19, 3, 413);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'closeBrowser')
+data.setCell(20, 2, 'herokuapp.VerifyFooterTxt')
+data.setCell(20, 3, 208);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'closeBrowser')
+data.setCell(21, 2, 'herokuapp.VerifyButtons')
+data.setCell(21, 3, 206);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'closeBrowser')
+data.setCell(22, 2, 'herokuapp.VerifyTableData')
+data.setCell(22, 3, 205);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'closeBrowser')
+data.setCell(23, 2, 'herokuapp.VerifyEditFunctionality')
+data.setCell(23, 3, 177);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'closeBrowser')
+data.setCell(24, 2, 'herokuapp.VerifyTitle')
+data.setCell(24, 3, 177);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'closeBrowser')
+data.setCell(25, 2, 'herokuapp.ColumnHeaders')
+data.setCell(25, 3, 170);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'closeBrowser')
+data.setCell(26, 2, 'herokuapp.VerifyDeleteFunctionality')
+data.setCell(26, 3, 144);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'maximizeApp')
+data.setCell(27, 2, 'herokuapp.VerifyDeleteFunctionality')
+data.setCell(27, 3, 136);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'maximizeApp')
+data.setCell(28, 2, 'herokuapp.ValidateFooterLink')
+data.setCell(28, 3, 133);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'maximizeApp')
+data.setCell(29, 2, 'herokuapp.VerifyTableData')
+data.setCell(29, 3, 130);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'maximizeApp')
+data.setCell(30, 2, 'herokuapp.VerifyHeader')
+data.setCell(30, 3, 129);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyColumnHeader')
+data.setCell(31, 2, 'herokuapp.VerifyFooterTxt')
+data.setCell(31, 3, 125);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyHeaderTxt')
+data.setCell(32, 2, 'herokuapp.VerifyHeader')
+data.setCell(32, 3, 123);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'maximizeApp')
+data.setCell(33, 2, 'herokuapp.VerifyFooterTxt')
+data.setCell(33, 3, 122);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyHeaderParagraph')
+data.setCell(34, 2, 'herokuapp.VerifyHeader')
+data.setCell(34, 3, 112);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'maximizeApp')
+data.setCell(35, 2, 'herokuapp.ColumnHeaders')
+data.setCell(35, 3, 39);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'maximizeApp')
+data.setCell(36, 2, 'herokuapp.VerifyAnswerCode')
+data.setCell(36, 3, 37);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'maximizeApp')
+data.setCell(37, 2, 'herokuapp.VerifyTitle')
+data.setCell(37, 3, 22);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'maximizeApp')
+data.setCell(38, 2, 'herokuapp.VerifyEditFunctionality')
+data.setCell(38, 3, 19);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'verifyTitle')
+data.setCell(39, 2, 'herokuapp.VerifyTitle')
+data.setCell(39, 3, 13);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyColumnHeader</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Lorem</span>
+                <span class="reporter-method-output">Ipsum</span>
+                <span class="reporter-method-output">Dolor</span>
+                <span class="reporter-method-output">Sit</span>
+                <span class="reporter-method-output">Amet</span>
+                <span class="reporter-method-output">Diceret</span>
+                <span class="reporter-method-output">Action</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyFooterLnk</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Footer window title is: Elemental Selenium: Receive a Free, Weekly Tip on Using Selenium like a Pro</span>
+                <span class="reporter-method-output">Home Page window title is: The Internet</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateButtons</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">First Button Name is: bar & background color is: rgba(43, 166, 203, 1)</span>
+                <span class="reporter-method-output">Second Button Name is: baz & background color is: rgba(198, 15, 19, 1)</span>
+                <span class="reporter-method-output">Third Button Name is: qux & background color is: rgba(93, 164, 35, 1)</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTableData</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked on Delete Button of Iuvaret4 Record</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTableData</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked on Edit Button of Iuvaret4 Record</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyColumnHeader</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Powered by Elemental Selenium</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTableData</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">==============Row:1 Data================</span>
+                <span class="reporter-method-output">Iuvaret0</span>
+                <span class="reporter-method-output">Apeirian0</span>
+                <span class="reporter-method-output">Adipisci0</span>
+                <span class="reporter-method-output">Definiebas0</span>
+                <span class="reporter-method-output">Consequuntur0</span>
+                <span class="reporter-method-output">Phaedrum0</span>
+                <span class="reporter-method-output">edit delete</span>
+                <span class="reporter-method-output">==============Row:2 Data================</span>
+                <span class="reporter-method-output">Iuvaret1</span>
+                <span class="reporter-method-output">Apeirian1</span>
+                <span class="reporter-method-output">Adipisci1</span>
+                <span class="reporter-method-output">Definiebas1</span>
+                <span class="reporter-method-output">Consequuntur1</span>
+                <span class="reporter-method-output">Phaedrum1</span>
+                <span class="reporter-method-output">edit delete</span>
+                <span class="reporter-method-output">==============Row:3 Data================</span>
+                <span class="reporter-method-output">Iuvaret2</span>
+                <span class="reporter-method-output">Apeirian2</span>
+                <span class="reporter-method-output">Adipisci2</span>
+                <span class="reporter-method-output">Definiebas2</span>
+                <span class="reporter-method-output">Consequuntur2</span>
+                <span class="reporter-method-output">Phaedrum2</span>
+                <span class="reporter-method-output">edit delete</span>
+                <span class="reporter-method-output">==============Row:4 Data================</span>
+                <span class="reporter-method-output">Iuvaret3</span>
+                <span class="reporter-method-output">Apeirian3</span>
+                <span class="reporter-method-output">Adipisci3</span>
+                <span class="reporter-method-output">Definiebas3</span>
+                <span class="reporter-method-output">Consequuntur3</span>
+                <span class="reporter-method-output">Phaedrum3</span>
+                <span class="reporter-method-output">edit delete</span>
+                <span class="reporter-method-output">==============Row:5 Data================</span>
+                <span class="reporter-method-output">Iuvaret4</span>
+                <span class="reporter-method-output">Apeirian4</span>
+                <span class="reporter-method-output">Adipisci4</span>
+                <span class="reporter-method-output">Definiebas4</span>
+                <span class="reporter-method-output">Consequuntur4</span>
+                <span class="reporter-method-output">Phaedrum4</span>
+                <span class="reporter-method-output">edit delete</span>
+                <span class="reporter-method-output">==============Row:6 Data================</span>
+                <span class="reporter-method-output">Iuvaret5</span>
+                <span class="reporter-method-output">Apeirian5</span>
+                <span class="reporter-method-output">Adipisci5</span>
+                <span class="reporter-method-output">Definiebas5</span>
+                <span class="reporter-method-output">Consequuntur5</span>
+                <span class="reporter-method-output">Phaedrum5</span>
+                <span class="reporter-method-output">edit delete</span>
+                <span class="reporter-method-output">==============Row:7 Data================</span>
+                <span class="reporter-method-output">Iuvaret6</span>
+                <span class="reporter-method-output">Apeirian6</span>
+                <span class="reporter-method-output">Adipisci6</span>
+                <span class="reporter-method-output">Definiebas6</span>
+                <span class="reporter-method-output">Consequuntur6</span>
+                <span class="reporter-method-output">Phaedrum6</span>
+                <span class="reporter-method-output">edit delete</span>
+                <span class="reporter-method-output">==============Row:8 Data================</span>
+                <span class="reporter-method-output">Iuvaret7</span>
+                <span class="reporter-method-output">Apeirian7</span>
+                <span class="reporter-method-output">Adipisci7</span>
+                <span class="reporter-method-output">Definiebas7</span>
+                <span class="reporter-method-output">Consequuntur7</span>
+                <span class="reporter-method-output">Phaedrum7</span>
+                <span class="reporter-method-output">edit delete</span>
+                <span class="reporter-method-output">==============Row:9 Data================</span>
+                <span class="reporter-method-output">Iuvaret8</span>
+                <span class="reporter-method-output">Apeirian8</span>
+                <span class="reporter-method-output">Adipisci8</span>
+                <span class="reporter-method-output">Definiebas8</span>
+                <span class="reporter-method-output">Consequuntur8</span>
+                <span class="reporter-method-output">Phaedrum8</span>
+                <span class="reporter-method-output">edit delete</span>
+                <span class="reporter-method-output">==============Row:10 Data================</span>
+                <span class="reporter-method-output">Iuvaret9</span>
+                <span class="reporter-method-output">Apeirian9</span>
+                <span class="reporter-method-output">Adipisci9</span>
+                <span class="reporter-method-output">Definiebas9</span>
+                <span class="reporter-method-output">Consequuntur9</span>
+                <span class="reporter-method-output">Phaedrum9</span>
+                <span class="reporter-method-output">edit delete</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">herokuapp.ColumnHeaders</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">maximizeApp</span>
+                <span class="method-start">18178 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyColumnHeader</span>
+                <span class="method-start">18219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">18656 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">herokuapp.ValidateFooterLink</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">18924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">maximizeApp</span>
+                <span class="method-start">42359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFooterLnk</span>
+                <span class="method-start">42498 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">48520 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">herokuapp.VerifyAnswerCode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">72097 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">maximizeApp</span>
+                <span class="method-start">86341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCode</span>
+                <span class="method-start">86380 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">89650 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">herokuapp.VerifyButtons</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">90103 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">maximizeApp</span>
+                <span class="method-start">105961 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateButtons</span>
+                <span class="method-start">107985 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">108705 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">herokuapp.VerifyDeleteFunctionality</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">108938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">maximizeApp</span>
+                <span class="method-start">122834 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTableData</span>
+                <span class="method-start">122974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">126963 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">herokuapp.VerifyEditFunctionality</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">127134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">maximizeApp</span>
+                <span class="method-start">142320 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTableData</span>
+                <span class="method-start">142341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">146501 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">herokuapp.VerifyFooterTxt</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">146713 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">maximizeApp</span>
+                <span class="method-start">160450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyColumnHeader</span>
+                <span class="method-start">160575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">160702 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">herokuapp.VerifyHeader</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">160949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">maximizeApp</span>
+                <span class="method-start">173464 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHeaderTxt</span>
+                <span class="method-start">173597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHeaderParagraph</span>
+                <span class="method-start">173722 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">173838 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">herokuapp.VerifyTableData</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">174041 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">maximizeApp</span>
+                <span class="method-start">186445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTableData</span>
+                <span class="method-start">186578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">191175 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">herokuapp.VerifyTitle</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">191409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">maximizeApp</span>
+                <span class="method-start">203342 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">203365 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">203379 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
