@@ -20,8 +20,8 @@ public class VerifyHeader {
 	WebDriver driver;
 	String strAppURL,nodeURL;
 	
-	//Jenkin setup
-	public void initSetup() throws MalformedURLException
+	//Jenkins setup
+	/*public void initSetup() throws MalformedURLException
 	{
 	strAppURL = "https://the-internet.herokuapp.com/challenging_dom";
 	nodeURL = "http://192.168.0.3:5617/wd/hub";
@@ -29,7 +29,7 @@ public class VerifyHeader {
 	capability.setBrowserName("firefox");
 	capability.setPlatform(Platform.XP);
 	driver = new RemoteWebDriver(new URL(nodeURL), capability);
-	}
+	}*/
 	
 	@Test(priority=1)
 	public void launchApp()
