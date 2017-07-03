@@ -16,7 +16,6 @@ public class ColumnHeaders
 				System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 				driver = new ChromeDriver();
 				driver.get("https://the-internet.herokuapp.com/challenging_dom");
-				driver.manage().window().maximize();
 			}
 			
 			@Test(priority=2)

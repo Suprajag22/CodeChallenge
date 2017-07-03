@@ -1,5 +1,7 @@
 package herokuapp;
 
+import static org.testng.Assert.assertEquals;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -12,9 +14,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
-
+import org.testng.asserts.*;
 @SuppressWarnings("deprecation")
 public class VerifyHeader {
 	WebDriver driver;
@@ -53,7 +56,9 @@ public class VerifyHeader {
 		WebElement objHeader = driver.findElement(By.xpath("//*[text()='Challenging DOM']"));
 		String strHeader = objHeader.getText();
 		String strExpected = "Challenging DOM";
-		Assert.assertEquals(strExpected, strHeader);
+		assert strHeader.equals(strExpected);
+		Reporter.log("String Header Text is: "+strHeader,true);
+	
 	}
 	
 	@Test(priority=4)
@@ -62,7 +67,8 @@ public class VerifyHeader {
 		WebElement objHeader = driver.findElement(By.xpath("//*[starts-with(text(),'The hardest part')]"));
 		String strHeader = objHeader.getText();
 		String strExpected = "The hardest part in automated web testing is finding the best locators (e.g., ones that well named, unique, and unlikely to change). It's more often than not that the application you're testing was not built with this concept in mind. This example demonstrates that with unique IDs, a table with no helpful locators, and a canvas element."; 
-		Assert.assertEquals(strExpected, strHeader);
+		assert strHeader.equals(strExpected);
+		Reporter.log("String Header Text is: "+strHeader,true);
 	}
 	
 	@AfterTest

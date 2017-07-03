@@ -1,14 +1,14 @@
 package herokuapp;
 
-import junit.framework.Assert;
+import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
+import org.testng.asserts.*;
 
-
-@SuppressWarnings("deprecation")
 public class VerifyTitle {
 	WebDriver driver;
 
@@ -18,7 +18,6 @@ public class VerifyTitle {
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://the-internet.herokuapp.com/challenging_dom");
-		driver.manage().window().maximize();
 	}
 	
 	@Test(priority=2)
@@ -35,7 +34,8 @@ public class VerifyTitle {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		String strTitleName = js.executeScript("return document.title;").toString();
 		String strExpected = "The Internet";
-		Assert.assertEquals(strExpected, strTitleName);
+		assert strTitleName.equals(strExpected);
+		Reporter.log("Page Title is: "+strTitleName,true);
 	}
 	
 	@Test(priority=4)

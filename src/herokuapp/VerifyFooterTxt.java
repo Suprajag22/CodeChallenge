@@ -15,7 +15,6 @@ WebDriver driver;
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://the-internet.herokuapp.com/challenging_dom");
-		driver.manage().window().maximize();
 	}
 	
 	@Test(priority=2)
@@ -25,7 +24,7 @@ WebDriver driver;
 	}
 	
 	@Test(priority=3)
-	public void verifyColumnHeader() throws InterruptedException
+	public void verifyFooterLink() throws InterruptedException
 	{
 		String strFooter = driver.findElement(By.xpath("//*[@id='page-footer']/div/div")).getText();
 		Reporter.log(strFooter, true);
